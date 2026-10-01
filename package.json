@@ -1,0 +1,22 @@
+{
+  "name": "buildtrack-construction-monitor",
+  "version": "1.0.0",
+  "description": "BuildTrack - Construction Project Delay Risk Monitor with CPM scheduling, Gantt chart, React Flow DAG, and real-time delay simulation",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "start": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "construction",
+    "critical-path-method",
+    "delay-risk",
+    "react-flow",
+    "gantt",
+    "fastapi",
+    "recharts"
+  ],
+  "author": "BuildTrack Team",
+  "license": "MIT"
+}
